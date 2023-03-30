@@ -8,8 +8,25 @@ module.exports = {
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: "class",
   theme: {
-    extend: {},
+    fontFamily: {
+  
+      'kaushan': ["Kaushan Script"],
+    },
+    extend: {
+      colors: {
+        green: {
+          DEFAULT: '#00f260'
+          },
+        dark:{
+          DEFAULT: '#010101',
+          '100': '#0a0b1e',
+          '200': '#16181d',
+          
+        },
+      },
+    },
   },
   plugins: [],
 }
